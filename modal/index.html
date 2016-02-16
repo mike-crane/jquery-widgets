@@ -1,0 +1,27 @@
+<!--Create an HTML page with a button on it.-->
+<!--When you click the button, show a modal using jQuery.-->
+<!--When you click the greyed out background, hide the modal.-->
+<!--When you click the [X] close button, hide the modal.-->
+<!--Make sure it's styled with CSS, too: add a font-stack of your choice and choose appropriate font and background colors.-->
+<!DOCTYPE html>
+<html>
+<head>
+   <link href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel = "stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link href = "./assets/css/index.css" rel = "stylesheet">
+   <title>Modal-Popup</title>
+</head>
+<body>
+  <div class="modalContainer">
+    <div class="popUp">
+      <button class="exitButton" type="button"> X </button>
+      <h1>PSYCH! <i class="fa fa-smile-o"></i></h1>
+    </div>
+  </div>
+
+  <button class="modalOpen">Click to Claim Your Prize!</button>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src = "./assets/js/index.js"></script>
+</body>
+</html>

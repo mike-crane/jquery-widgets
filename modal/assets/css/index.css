@@ -1,0 +1,37 @@
+body {
+  font-size: 1em;
+  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.modalContainer {
+  position: fixed;
+  background: rgba(#080101, 0.5);
+  display: none;
+}
+
+.modalOpen {
+  width: 10%;
+  margin: 20% 50% 0 50%;
+}
+
+.psychFace {
+  border: solid 6px black;
+  width: 45%;
+  margin: 10% 30%;
+  padding: 0 0 6em 0;
+  background: #ed921a;
+  display: block;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.exitButton {
+  /*margin-top: 5px;*/
+  padding: 3px;
+}
